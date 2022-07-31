@@ -1,0 +1,47 @@
+/* styles.css */
+
+img {
+    height: auto;
+    width: 500px;
+}
+
+h1 {
+    color:red;
+}
+
+p, div, span, h1, h2, h3, ul, ol {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.intro-box {
+    background-color:aqua;
+    max-width: 500px;
+}
+
+.ingredients-list {
+    font-size: 30px;
+}
+
+.recipe-box {
+    display:inline-block;
+    border-color: black;
+    border: thick double;
+}
+
+.recipe-box > span img {
+    height:300px;
+}
+
+.box1, .box2, .box3 {
+    display:inline-block;
+    margin: 15px;
+    border:solid;
+    border-color: black;
+    background-color: lightcoral;
+}
+
+.recipe-title {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+}

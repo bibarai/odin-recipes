@@ -1,12 +1,5 @@
 /* styles.css */
 
-html {
-    box-sizing: border-box;
-}
-*, *::before, *::after {
-    box-sizing: inherit;
-}
-
 body {
     font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 18px;
@@ -32,29 +25,28 @@ h1 {
 
 .recipe-box {
     display: flex;
-    flex: auto;
     flex-wrap: wrap;
-    justify-content: space-around;
-    max-width: 75%;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: auto;
     gap: 10px;
-    margin: auto;
 }
 
-.recipe-box > span img {
-    height:300px;
+.recipe-card {
+    padding: 1%;
+    flex-grow: 1;
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: center;
 }
 
-.recipe-image {
-    display:block;
-    border:solid;
-    border-color: black;
-    background-color: lightcoral;
-    margin: auto;
-    padding: 10px;
+.recipe-image img {
+    max-width: 100%;
+    height: 300px;
 }
 
-.recipe-title {
-    display: block;
-    text-align: center;
-    font-size: 30px;
+.recipe-info {
+    /* background-color: rgb(228, 199, 236); */
 }

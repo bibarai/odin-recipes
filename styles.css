@@ -31,8 +31,10 @@ h1 {
 }
 
 .recipe-box {
-    display:inline-block;
-    block-size: 350px;
+    display: flex;
+    justify-content: space-between;
+    flex: auto;
+    max-width: 75%;
 }
 
 .recipe-box > span img {
@@ -40,11 +42,11 @@ h1 {
 }
 
 .box1, .box2, .box3 {
-    display:inline-block;
-    margin: auto;
+    display:block;
     border:solid;
     border-color: black;
     background-color: lightcoral;
+    margin: auto;
 }
 
 .recipe-title {

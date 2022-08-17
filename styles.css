@@ -41,7 +41,7 @@ h1 {
     height:300px;
 }
 
-.box1, .box2, .box3 {
+.recipe-image {
     display:block;
     border:solid;
     border-color: black;

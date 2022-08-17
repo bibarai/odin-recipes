@@ -32,11 +32,12 @@ h1 {
 
 .recipe-box {
     display: flex;
-    justify-content: space-around;
     flex: auto;
-    max-width: 75%;
     flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 75%;
     gap: 10px;
+    margin: auto;
 }
 
 .recipe-box > span img {
